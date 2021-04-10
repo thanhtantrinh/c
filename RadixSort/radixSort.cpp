@@ -33,7 +33,7 @@ void radix_sort(int a[], int n)
 
       for (i = 0; i < n; i++)
       {
-         r = (a[i] / divisor) % 10; ///
+         r = (a[i] / divisor) % 10; ///abc
 
          bucket[r][bucket_cnt[r]] = a[i]; //
 
